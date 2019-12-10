@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>class Selector</title>
+    <style>
+        .highlight {
+            background-color: green;
+        }
+        
+        p.highlight {
+            font-style: oblique;
+        }
+        
+        .mainpoint.highlight {
+            color: red;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h class="highlight">Element with class Selector</h1>
+        <p> As an example, here you can see on the right that p class="big" will get to text size 20px, as opposed to all the other elements that have a class="big" will not get that same 20 pixel font size styling. This technique is pretty commonly used
+            when you have a CSS class definition that applies to different elements but when it's applied to a particular element you would like the styling to slightly change.</p>
+        <p class="highlight">This is paragraph with highlight class</p>
+        <div class="mainpoint highlight">This is the main point of the article.
+        </div>
+</body>
+
+</html>
