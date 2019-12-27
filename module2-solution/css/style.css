@@ -3,6 +3,40 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.sec {
+    border: 0px solid white;
+}
+
+#id1 {
+    background-color: rgb(136, 14, 14);
+    border: 1px solid black;
+    padding: 5px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    overflow: hidden;
+}
+
+#id2 {
+    background-color: rgb(14, 46, 224);
+    border: 1px solid black;
+    padding: 5px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    overflow: hidden;
+}
+
+#id3 {
+    background-color: rgb(144, 42, 165);
+    border: 1px solid black;
+    padding: 5px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    overflow: hidden;
+}
+
 @media (min-width: 992px) {
     .col-lg-1,
     .col-lg-2,
@@ -182,15 +216,6 @@
     padding: 10px;
 }
 
-.shift {
-    float: right;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 15px;
-}
-
 .class {
     background-color: rgb(25, 212, 18);
     height: 370px;
@@ -201,36 +226,11 @@ h1 {
     overflow: hidden;
 }
 
-.sec {
-    border: 0px solid white;
+.shift {
+    float: right;
 }
 
-#id1 {
-    background-color: rgb(136, 14, 14);
-    border: 1px solid black;
-    padding: 5px;
-    position: relative;
-    bottom: 10px;
-    left: 10px;
-    overflow: hidden;
-}
-
-#id2 {
-    background-color: rgb(14, 46, 224);
-    border: 1px solid black;
-    padding: 5px;
-    position: relative;
-    bottom: 10px;
-    left: 10px;
-    overflow: hidden;
-}
-
-#id3 {
-    background-color: rgb(144, 42, 165);
-    border: 1px solid black;
-    padding: 5px;
-    position: relative;
-    bottom: 10px;
-    left: 10px;
-    overflow: hidden;
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
 }
